@@ -47,10 +47,6 @@ func (s *APIServer) Run() {
 
 }
 
-func (s *APIServer) handleAccount(w http.ResponseWriter, r *http.Request) error {
-	return nil
-}
-
 func (s *APIServer) handleGetAccount(w http.ResponseWriter, r *http.Request) error {
 	return nil
 }
